@@ -63,15 +63,20 @@
     margin: 9em auto 9em auto;
     color:white;
     flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 0 0 2em rgb(69, 69, 69);
 }
 .midLayer {
-    background-color: maroon;
+    background-image: url("https://i.pinimg.com/1200x/cb/29/4a/cb294ad1893c50daf1acea1d32fc8fef.jpg");
+    background-position:center top;
+    background-attachment: scroll;
+    background-size: cover;
     color: white;
     position: relative;
     width: 100%;
     left: 0;
     z-index: 0;
-    padding: 40px;
+    padding: 100px;
 }
 
 .lastLayer{
